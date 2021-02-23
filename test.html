@@ -1,21 +1,108 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>hiii</title>
-</head>
-<body>
-    <h1>Gayatri is beautiful</h1>
-    <h2>Gayatri</h2>
-    <h3>She studies very hard</h3>
-    <h4>she is in first year engineering</h4>
-    <h5>she loves to eat</h5>
-    <h6>She watches many web series</h6>
-    <p>hii,how are you</p>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam suscipit dicta nisi nostrum quidem iusto ducimus. Dolorem placeat ducimus quis? Nisi voluptates quos hic ipsum officia ut reiciendis ducimus in.</p>
-    <!--my first html-->
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>hiii</title>
+    </head>
+    <body>
+        <h1>Gayatri is beautiful</h1>
+        <h2>Gayatri</h2>
+        <h3>She studies very hard</h3>
+        <h4>she is in first year engineering</h4>
+        <h5>she loves to eat</h5>
+        <h6>She watches many web series</h6>
+        <p>hii,how are you</p>
+        <p>
+            Lorem ipsum dolor sit amet consectetur <strong>adipisicing elit. Veniam suscipit dicta nisi nostrum</strong> quidem iusto <em> ducimus. Dolorem placeat</em> ducimus quis?
+            <a href="http://google.com" target="_blank">sed do hygj</a> Nisi voluptates quos hic ipsum officia ut reiciendis ducimus in.
+        </p>
+        <!--my first html-->
+        <!--lists-->
+        <ul>
+            <li>list item 1</li>
+            <li>list item 2</li>
+            <li>list item 3</li>
+            <li>list item 4</li>
+            <li>list item 5</li>
+        </ul>
+        <ol>
+            <li>list item 1</li>
+            <li>list item 2</li>
+            <li>list item 3</li>
+            <li>list item 4</li>
+            <li>list item 5</li>
+        </ol>
+        <!--tables-->
+        <table>
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Email</th>
+                    <th>Age</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>
+                        Gayatri Joshi
+                    </td>
+                    <td>something.com</td>
+                    <td>17</td>
+                </tr>
+                <tr>
+                    <td>
+                        Dheeraj Lalwani
+                    </td>
+                    <td>something.com</td>
+                    <td>19</td>
+                </tr>
+                <tr>
+                    <td>
+                        Vaishnavi Joshi
+                    </td>
+                    <td>something.com</td>
+                    <td>14</td>
+                </tr>
+            </tbody>
+        </table>
+        <br />
+        <hr />
+        <br />
+        <!--forms-->
+        <form action="process.php" method="POST">
+            <div>
+                <label>First Name</label>
+                <input type="text" name="firstname" />
+            </div>
+            <br />
+            <div>
+                <label>Last Name</label>
+                <input type="text" name="lastname" />
+            </div>
+            <br />
+            <div>
+                <label>Email</label>
+                <input type="email" name="email" />
+            </div>
+            <br />
+            <div>
+                <label>Message</label>
+                <textarea name="message"></textarea>
+            </div>
+			<br>
+            <div>
+                <label>Gender</label>
+                <select name="gender">
+				   <option value="male">Male</option>
+				   <option value="female">Female</option>
+				   <option value="other">Other</option>
 
-</body>
+				</select>
+            </div>
+        </form>
+
+        <div style="margin-top: 500px;"></div>
+    </body>
 </html>
