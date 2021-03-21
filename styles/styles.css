@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Akaya+Kanadaka&display=swap');
 html {
-    font-size: 20px; /* px means "pixels": the base font size is now 10 pixels high  */
+    font-size: 18px; /* px means "pixels": the base font size is now 10 pixels high  */
     font-family: 'Akaya Kanadaka', cursive; /* this should be the rest of the output you got from Google fonts */
     background-color: #0d101e;
     color: white;
