@@ -1,7 +1,5 @@
-# simplepage
+# Portfolio
 
 ---
 
-## This is my first web project.
-
-I will keep updating whatever concepts I learn.
+You can know more about me here.
