@@ -1,0 +1,113 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    /* border: 2px solid red; */
+    /* background-color: black; */
+    font-family: 'Noto Sans TC', sans-serif;
+    color: #3470FF;
+}
+body{
+    background-image: url("../images/starrysky.jpg");
+}
+a{
+    text-decoration: none;
+    color: #3470FF;
+}
+.navigation-bar{
+    display: flex;
+    list-style-type:none ;
+    justify-content: flex-end;
+}
+
+.nav-item{
+    display: flex;
+    margin: 15px;
+    padding: 5px;
+    font-size: 35px;
+    margin-top: 26px;
+    margin-right: 38px;
+}
+
+.introduction{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    align-items: center;
+}
+.intro{
+    width: 30%;
+    display: flex;
+    justify-content: left;
+    flex-direction: column;
+    padding: 50px;
+    margin-top: 30px;
+    margin-left: 350px;
+    margin-right: 50px;
+    font-size: 40px;
+}
+
+.intro-msg{
+    font-size: 50px;
+}
+
+
+h1{
+    font-family: 'Roboto Mono', monospace;
+    position: relative;
+    width: max-content;
+}
+h1::before,
+h1::after{
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}
+
+h1::before{
+    background: black;
+    animation: typewriter 4s steps(13) 1s forwards;
+}
+
+h1::after{
+    width: 2px;
+    height: 100%;
+    background: #3470FF;
+    animation: typewriter 4s steps(13) 1s forwards,
+                blinkCursor 500ms steps(13) infinite;
+}
+@keyframes typewriter 
+{
+    to {
+        left: 100%;
+    }
+}
+
+@keyframes blinkCursor{
+    to{
+        background: transparent;
+    }
+}
+img{
+    border-radius: 10px;
+}
+
+.myimg{
+    margin: 25px;
+    margin-top: 80px;
+    margin-left: 200px;
+}
+.tagline{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    font-size: 40px;
+    font-family: 'Noto Sans TC', sans-serif;
+    margin-top: 68px;
+    letter-spacing: 2px;
+
+}
