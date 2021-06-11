@@ -3,6 +3,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Gayatri Joshi</title>
     <link rel="stylesheet" href="styles/styles.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
@@ -11,14 +12,17 @@
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@300&display=swap" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Satisfy&display=swap" rel="stylesheet">
 </head>
-<body>   
+<body>
+    <div id="homepage">  
     <header>
         <nav>
             <ul class="navigation-bar">
-                <li class="nav-item"><a href="#">Home</a></li>
-                <li class="nav-item"><a href="#">About</a></li>
-                <li class="nav-item"><a href="#">Projects</a></li>
+                <li class="nav-item"><a href="#homepage">Home</a></li>
+                <li class="nav-item"><a href="#aboutpage">About</a></li>
+                <li class="nav-item"><a href="#projectspage">Projects</a></li>
                 <li class="nav-item"><a href="#">Contact</a></li>
             </ul>
         </nav>
@@ -29,14 +33,34 @@
                 <p class="intro-msg">
                     Hey , I am
                 </p>
-                <h1>Gayatri Joshi</h1>
+                <h1 class="name">
+                    Gayatri Joshi
+                </h1>
             </div>
             <div class="myimg">
-                <img src="images/myimg.jpg">
+                <img src="images/Mask Group.png">
             </div>
         </div>
         <div class="tagline">
             <h2>Let's make the world<h2>a more inclusive place for everyone.</h2>
+        </div>
+        </div>
+        <div id="aboutpage">
+                <h1 class="about">
+                    About me
+                </h1>
+                <p class="about-intro">
+                    I am exploring web development and other technologies as I proceed with my engineering career in Mumbai. My interest
+                    lies in Frontend, UI/UX and Graphic designing. I aim to be an Open Source contributor and an inclusive tech builder.
+                </p>
+        </div>
+        <div id="projectspage">
+            <h1 class="proj-heading">
+                Projects
+            </h1>
+            <p class="proj-intro">
+                Inspired by the UI of Github homepage I made a static website of <a  class="github-clone" href="https://gayatrivjoshi.github.io/github-home-page-clone/" target="_blank" >github-homepage </a>using HTML CSS.
+            </p>
         </div>
     </main>
 </body>

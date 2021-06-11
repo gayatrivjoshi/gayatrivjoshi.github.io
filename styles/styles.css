@@ -2,17 +2,17 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    /* border: 2px solid red; */
-    /* background-color: black; */
-    font-family: 'Noto Sans TC', sans-serif;
-    color: #3470FF;
+    /* border: 2px solid red;    */
 }
 body{
-    background-image: url("../images/starrysky.jpg");
+    background-color:#F3E3E2;
+    font-family: 'Noto Sans TC', sans-serif;
+    color:#4B3718;
+    /* color:#806236; */
 }
 a{
     text-decoration: none;
-    color: #3470FF;
+    color: #4B3718 ;
 }
 .navigation-bar{
     display: flex;
@@ -22,11 +22,16 @@ a{
 
 .nav-item{
     display: flex;
+    font-weight: bold;
     margin: 15px;
     padding: 5px;
-    font-size: 35px;
-    margin-top: 26px;
-    margin-right: 38px;
+    font-size: 28px;
+    margin-top: 18px;
+    margin-right: 30px;
+}
+
+#homepage{
+    height: 100vh;
 }
 
 .introduction{
@@ -34,31 +39,33 @@ a{
     flex-direction: row;
     width: 100%;
     align-items: center;
+    height: 50vh;
 }
 .intro{
     width: 30%;
     display: flex;
     justify-content: left;
     flex-direction: column;
-    padding: 50px;
-    margin-top: 30px;
-    margin-left: 350px;
-    margin-right: 50px;
+    padding: 40px;
+    margin-top: 25px;
+    margin-left: 200px;
+    margin-right: 45px;
     font-size: 40px;
 }
 
 .intro-msg{
-    font-size: 50px;
+    font-size: 35px;
 }
 
 
-h1{
+.name{
     font-family: 'Roboto Mono', monospace;
+    font-size: 60px;
     position: relative;
     width: max-content;
 }
-h1::before,
-h1::after{
+.name::before,
+.name::after{
     content: "";
     position: absolute;
     top: 0;
@@ -67,15 +74,15 @@ h1::after{
     left: 0;
 }
 
-h1::before{
-    background: black;
+.name::before{
+    background: #F3E3E2;
     animation: typewriter 4s steps(13) 1s forwards;
 }
 
-h1::after{
+.name::after{
     width: 2px;
     height: 100%;
-    background: #3470FF;
+    background: #4B3718 ;
     animation: typewriter 4s steps(13) 1s forwards,
                 blinkCursor 500ms steps(13) infinite;
 }
@@ -91,13 +98,11 @@ h1::after{
         background: transparent;
     }
 }
-img{
-    border-radius: 10px;
-}
+
 
 .myimg{
     margin: 25px;
-    margin-top: 80px;
+    margin-top: 50px;
     margin-left: 200px;
 }
 .tagline{
@@ -105,9 +110,76 @@ img{
     justify-content: center;
     flex-direction: column;
     text-align: center;
-    font-size: 40px;
+    font-size: 30px;
     font-family: 'Noto Sans TC', sans-serif;
-    margin-top: 68px;
+    margin-top: 62px;
     letter-spacing: 2px;
+    margin-bottom: 102px;
 
+}
+#aboutpage{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 2px solid #4B3718 ;
+    border-radius: 50px;
+    margin-right: 400px;
+    margin-left: 30px;
+    margin-bottom: 30px;
+}
+
+.about{
+    font-size: 50px;
+    font-family: 'Satisfy', cursive;
+    font-weight: 100;
+    color: #4B3718;
+    margin: 20px;
+    margin-bottom: 10px;
+    /* margin-top: px; */
+    padding-left: 30px;
+
+}
+
+.about-intro{
+    /* color: #997d53; */
+    color:#806236;
+    text-align: center;
+    font-size: 30px;
+    margin: 30px;
+    margin-top: 10px;
+    margin-left: 50px;
+    font-weight: 400;
+}
+
+#projectspage{
+    display: flex;
+    flex-direction: column;
+    border: 2px solid #4B3718 ;
+    border-radius: 30px;
+    margin-left: 380px;
+    margin-top: 100px;
+    margin-bottom: 30px;
+}
+
+.proj-heading{
+    text-align: center;
+    font-size: 50px;
+    font-family: 'Satisfy', cursive;
+    font-weight: 100;
+    color: #4B3718;
+    margin: 20px;
+}
+
+.proj-intro{
+    color:#806236;
+    text-align: center;
+    font-size: 30px;
+    margin: 30px;
+    margin-top: 10px;
+}
+
+.github-clone:hover{
+    background-color: #806236;
+    color: #F3E3E2;
+    border-radius: 7px;
 }
