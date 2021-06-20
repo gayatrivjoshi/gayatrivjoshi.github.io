@@ -126,6 +126,7 @@ a{
     margin-right: 400px;
     margin-left: 30px;
     margin-bottom: 30px;
+    margin-top: 20px;
 }
 
 .about{
@@ -159,6 +160,7 @@ a{
     margin-left: 380px;
     margin-top: 100px;
     margin-bottom: 30px;
+    margin-right: 30px;
 }
 
 .proj-heading{
@@ -183,3 +185,36 @@ a{
     color: #F3E3E2;
     border-radius: 7px;
 }
+
+#Contact-page{
+    display: flex;
+    flex-direction: column;
+    border: 2px solid #4B3718 ;
+    border-radius: 35px;
+    margin-right: 400px;
+    margin-left: 30px;
+    margin-bottom: 30px;
+    margin-top: 100px;
+}
+
+.contact-heading{
+    text-align: center;
+    font-size: 50px;
+    font-family: 'Satisfy', cursive;
+    font-weight: 100;
+    color: #4B3718;
+    margin: 20px;    
+}
+.contact-item{
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    margin-left: 350px;
+    font-size: 50px;
+}
+
+.contact-item-1{
+    margin-right: 30px;
+    color:#806236;
+}
+
